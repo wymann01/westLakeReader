@@ -32,11 +32,14 @@ class AppleNewsCellLarge: NewsCell {
             contentView.addSubviewForAutoLayout($0)
         }
 
+        // 设置布局属性
         let imageHeight: CGFloat = 250
-        let inset: CGFloat = 15
+        let inset: CGFloat = 30
         NSLayoutConstraint.activate([
-            articleImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: inset),
+            articleImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 15),
+            // 设置左边
             articleImageView.leadingAnchor.constraint(equalTo: contentView.readableContentGuide.leadingAnchor),
+            // 设置右边
             contentView.readableContentGuide.trailingAnchor.constraint(equalTo: articleImageView.trailingAnchor),
             articleImageView.heightAnchor.constraint(equalToConstant: imageHeight),
 

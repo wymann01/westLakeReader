@@ -12,6 +12,7 @@ import SafariServices
 class NewsViewController: UIViewController {
     var viewTable: UITableView!
 
+    // 不同风格的处理器,决定了页面长什么样
     var handlerAppleNews = AppleNewsHandler()
     var handlerApollo = ApolloHandler()
     var handlerAxios = AxiosHandler()
@@ -32,8 +33,8 @@ class NewsViewController: UIViewController {
     var handlerWashingtonPost = WashingtonPostHandler()
     var handlerWSJ = WSJHandler()
 
+    // 是 Lil style 用到的控件, 像 UIScrollView
     var viewCollection: UICollectionView!
-
     var handlerLilNews = LilNewsHandler()
 
     var viewModel: NewsViewModel!
@@ -44,6 +45,7 @@ class NewsViewController: UIViewController {
         super.viewDidLoad()
 
         viewModel = NewsViewModel(controller: self)
+        
         configure()
         viewModel.load()
     }
@@ -84,7 +86,6 @@ class NewsViewController: UIViewController {
             updateCollection(style)
         }
     }
-
 }
 
 private extension NewsViewController {
@@ -97,14 +98,15 @@ private extension NewsViewController {
     }
 
     func configureNavigation() {
-        let styleImage = UIImage(systemName: "textformat.size")
+        // 使用系统自带的图标
+        let styleImage = UIImage(systemName: "figure.walk.circle")
         let styleBarbutton = UIBarButtonItem(title: nil, image: styleImage, primaryAction: nil, menu: viewModel.styleMenu)
-        styleBarbutton.tintColor = .systemGray
+        styleBarbutton.tintColor = .systemPink
         navigationItem.rightBarButtonItem = styleBarbutton
 
-        let categoryImage = UIImage(systemName: "list.dash")
+        let categoryImage = UIImage(systemName: "lightbulb.fill")
         let categoryBarButton = UIBarButtonItem(title: nil, image: categoryImage, primaryAction: nil, menu: viewModel.categoryMenu)
-        categoryBarButton.tintColor = .systemGray
+        categoryBarButton.tintColor = .systemPink
         navigationItem.leftBarButtonItem = categoryBarButton
     }
 
@@ -132,10 +134,13 @@ private extension NewsViewController {
         viewTable = UITableView(frame: .zero, style: .plain, identifiers: identifiers)
         viewTable.isHidden = true
         viewTable.separatorInset = .zero
+        // 设置 cell 的高度自适应
         viewTable.rowHeight = UITableView.automaticDimension
-        viewTable.cellLayoutMarginsFollowReadableWidth = true
+        // 设置 cell 左右两边的间距
+        viewTable.cellLayoutMarginsFollowReadableWidth = false
 
         view.addSubviewForAutoLayout(viewTable)
+        // 添加约束并激活
         NSLayoutConstraint.activate([
             viewTable.topAnchor.constraint(equalTo: view.topAnchor),
             viewTable.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),

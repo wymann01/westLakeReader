@@ -60,6 +60,7 @@ private extension NewsApi {
     }
 }
 
+// 拓展,给原来的类, 结构体或者枚举添加方法
 extension URL {
 
     func get<T: Codable>(completion: @escaping (Result<T, ApiError>) -> Void) {

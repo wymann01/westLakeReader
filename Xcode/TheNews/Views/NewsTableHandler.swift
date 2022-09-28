@@ -8,6 +8,7 @@ class NewsTableHandler: NSObject, UITableViewDataSource, UITableViewDelegate {
 
     var articles: [Article] = []
 
+    // 0 没有特殊含义,默认值罢了
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 0
     }
@@ -17,6 +18,7 @@ class NewsTableHandler: NSObject, UITableViewDataSource, UITableViewDelegate {
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        // 打开网页
         let item = articles[indexPath.row]
         guard let url = item.url else { return }
 

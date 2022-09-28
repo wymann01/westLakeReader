@@ -38,6 +38,7 @@ class AppleNewsCell: NewsCell {
         let inset: CGFloat = 15
         NSLayoutConstraint.activate([
             articleImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: inset),
+           
             contentView.readableContentGuide.trailingAnchor.constraint(equalTo: articleImageView.trailingAnchor),
             articleImageView.heightAnchor.constraint(equalToConstant: imageHeight),
             articleImageView.widthAnchor.constraint(equalToConstant: imageHeight),
