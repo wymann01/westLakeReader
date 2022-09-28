@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211EDD4228DC02AF0019BD9A /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211EDD4128DC02AF0019BD9A /* ReadingViewController.swift */; };
+		21C532D5BED0C265CEA1C416 /* Pods_Today.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E18F58BBEBCC0153059FC293 /* Pods_Today.framework */; };
 		6507850E25870361001ABDAE /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6507850D25870360001ABDAE /* NewsViewModel.swift */; };
 		650785392587038F001ABDAE /* BBCHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650785142587038E001ABDAE /* BBCHandler.swift */; };
 		6507853A2587038F001ABDAE /* BBCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650785152587038E001ABDAE /* BBCCell.swift */; };
@@ -89,6 +91,9 @@
 		65F368A02457DD0800A8C398 /* TvNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3689F2457DD0800A8C398 /* TvNewsCell.swift */; };
 		65F368A224588D8300A8C398 /* InsetLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F368A124588D8300A8C398 /* InsetLabel.swift */; };
 		65F368A42458952E00A8C398 /* TvExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F368A32458952E00A8C398 /* TvExtension.swift */; };
+		6BE9C9F9D7AE9A1A5A3C0F22 /* Pods_TheNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E959EF37515640C0B3D220A /* Pods_TheNews.framework */; };
+		8655CC54F6BCBAFE0337CBAC /* Pods_TheNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358CB6B68C42426760B522CC /* Pods_TheNewsTests.framework */; };
+		D6FA89812FB3582B38959DB1 /* Pods_TheNews_tvos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 354D501C413F8AB216A072D5 /* Pods_TheNews_tvos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +128,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		211EDD4128DC02AF0019BD9A /* ReadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
+		25C7FB0E4974BEDF9AC04B4F /* Pods-TheNews.tvos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNews.tvos.debug.xcconfig"; path = "Target Support Files/Pods-TheNews.tvos/Pods-TheNews.tvos.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1C0756A7839324B02C63FB /* Pods-TheNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNewsTests.release.xcconfig"; path = "Target Support Files/Pods-TheNewsTests/Pods-TheNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		305B6A81642ACE21AC853713 /* Pods-TheNews.tvos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNews.tvos.release.xcconfig"; path = "Target Support Files/Pods-TheNews.tvos/Pods-TheNews.tvos.release.xcconfig"; sourceTree = "<group>"; };
+		354D501C413F8AB216A072D5 /* Pods_TheNews_tvos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheNews_tvos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		358CB6B68C42426760B522CC /* Pods_TheNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheNewsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E959EF37515640C0B3D220A /* Pods_TheNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		402D1C5DACE7A310E55747F8 /* Pods-Today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Today.debug.xcconfig"; path = "Target Support Files/Pods-Today/Pods-Today.debug.xcconfig"; sourceTree = "<group>"; };
 		6507850D25870360001ABDAE /* NewsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		650785142587038E001ABDAE /* BBCHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBCHandler.swift; sourceTree = "<group>"; };
 		650785152587038E001ABDAE /* BBCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBCCell.swift; sourceTree = "<group>"; };
@@ -202,6 +215,11 @@
 		65F3689F2457DD0800A8C398 /* TvNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvNewsCell.swift; sourceTree = "<group>"; };
 		65F368A124588D8300A8C398 /* InsetLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetLabel.swift; sourceTree = "<group>"; };
 		65F368A32458952E00A8C398 /* TvExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvExtension.swift; sourceTree = "<group>"; };
+		7A6D4E7AFAB6A7F7B02309D5 /* Pods-Today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Today.release.xcconfig"; path = "Target Support Files/Pods-Today/Pods-Today.release.xcconfig"; sourceTree = "<group>"; };
+		7F2080792D562775C847033C /* Pods-TheNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNews.release.xcconfig"; path = "Target Support Files/Pods-TheNews/Pods-TheNews.release.xcconfig"; sourceTree = "<group>"; };
+		83542FEA99C0CB2D51557ACB /* Pods-TheNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNews.debug.xcconfig"; path = "Target Support Files/Pods-TheNews/Pods-TheNews.debug.xcconfig"; sourceTree = "<group>"; };
+		E18F58BBEBCC0153059FC293 /* Pods_Today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E808280F4DBD43B92DF308C2 /* Pods-TheNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheNewsTests.debug.xcconfig"; path = "Target Support Files/Pods-TheNewsTests/Pods-TheNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE9C9F9D7AE9A1A5A3C0F22 /* Pods_TheNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65883ADB24744FF800C1A55A /* NotificationCenter.framework in Frameworks */,
+				21C532D5BED0C265CEA1C416 /* Pods_Today.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8655CC54F6BCBAFE0337CBAC /* Pods_TheNewsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +252,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FA89812FB3582B38959DB1 /* Pods_TheNews_tvos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +396,7 @@
 				65883ADC24744FF800C1A55A /* Today */,
 				65883AD924744FF800C1A55A /* Frameworks */,
 				6560AE4E24411C4A00581008 /* Products */,
+				77AB6C2C2F6CF703E151EBBA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -404,6 +427,7 @@
 				6560AE5B24411C4C00581008 /* LaunchScreen.storyboard */,
 				65C383732587248F008F1411 /* NewsApi */,
 				6595AFEF24519ADA0076E632 /* Views */,
+				211EDD4128DC02AF0019BD9A /* ReadingViewController.swift */,
 			);
 			path = TheNews;
 			sourceTree = "<group>";
@@ -431,6 +455,10 @@
 			isa = PBXGroup;
 			children = (
 				65883ADA24744FF800C1A55A /* NotificationCenter.framework */,
+				3E959EF37515640C0B3D220A /* Pods_TheNews.framework */,
+				354D501C413F8AB216A072D5 /* Pods_TheNews_tvos.framework */,
+				358CB6B68C42426760B522CC /* Pods_TheNewsTests.framework */,
+				E18F58BBEBCC0153059FC293 /* Pods_Today.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -546,6 +574,22 @@
 			path = TheNews.tvos;
 			sourceTree = "<group>";
 		};
+		77AB6C2C2F6CF703E151EBBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83542FEA99C0CB2D51557ACB /* Pods-TheNews.debug.xcconfig */,
+				7F2080792D562775C847033C /* Pods-TheNews.release.xcconfig */,
+				25C7FB0E4974BEDF9AC04B4F /* Pods-TheNews.tvos.debug.xcconfig */,
+				305B6A81642ACE21AC853713 /* Pods-TheNews.tvos.release.xcconfig */,
+				E808280F4DBD43B92DF308C2 /* Pods-TheNewsTests.debug.xcconfig */,
+				2D1C0756A7839324B02C63FB /* Pods-TheNewsTests.release.xcconfig */,
+				402D1C5DACE7A310E55747F8 /* Pods-Today.debug.xcconfig */,
+				7A6D4E7AFAB6A7F7B02309D5 /* Pods-Today.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -553,10 +597,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6560AE6124411C4C00581008 /* Build configuration list for PBXNativeTarget "TheNews" */;
 			buildPhases = (
+				131469A50EB31CE183E3CF4E /* [CP] Check Pods Manifest.lock */,
 				6560AE4924411C4A00581008 /* Sources */,
 				6560AE4A24411C4A00581008 /* Frameworks */,
 				6560AE4B24411C4A00581008 /* Resources */,
 				65883AE624744FF800C1A55A /* Embed App Extensions */,
+				A83F2195FE5068CD4BA7BD98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -572,6 +618,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65883AE924744FF800C1A55A /* Build configuration list for PBXNativeTarget "Today" */;
 			buildPhases = (
+				0DD524678FD404BC20B05A50 /* [CP] Check Pods Manifest.lock */,
 				65883AD424744FF800C1A55A /* Sources */,
 				65883AD524744FF800C1A55A /* Frameworks */,
 				65883AD624744FF800C1A55A /* Resources */,
@@ -589,6 +636,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65943904245A1F4400F92AD8 /* Build configuration list for PBXNativeTarget "TheNewsTests" */;
 			buildPhases = (
+				EE873A02DF3F71698B001823 /* [CP] Check Pods Manifest.lock */,
 				659438F7245A1F4400F92AD8 /* Sources */,
 				659438F8245A1F4400F92AD8 /* Frameworks */,
 				659438F9245A1F4400F92AD8 /* Resources */,
@@ -607,6 +655,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65F36897245684B500A8C398 /* Build configuration list for PBXNativeTarget "TheNews.tvos" */;
 			buildPhases = (
+				73A4F6709949F5389C8DABD8 /* [CP] Check Pods Manifest.lock */,
 				65F36882245684B000A8C398 /* Sources */,
 				65F36883245684B000A8C398 /* Frameworks */,
 				65F36884245684B000A8C398 /* Resources */,
@@ -702,6 +751,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DD524678FD404BC20B05A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Today-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		131469A50EB31CE183E3CF4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A4F6709949F5389C8DABD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheNews.tvos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A83F2195FE5068CD4BA7BD98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheNews/Pods-TheNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheNews/Pods-TheNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheNews/Pods-TheNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE873A02DF3F71698B001823 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheNewsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6560AE4924411C4A00581008 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -762,6 +919,7 @@
 				650785502587038F001ABDAE /* WSJHandler.swift in Sources */,
 				650785432587038F001ABDAE /* TwitterCell.swift in Sources */,
 				650785442587038F001ABDAE /* FlipboardHandler.swift in Sources */,
+				211EDD4228DC02AF0019BD9A /* ReadingViewController.swift in Sources */,
 				65580AA525904AE800D1287F /* AxiosCell.swift in Sources */,
 				65C3839D2587255B008F1411 /* Extension.swift in Sources */,
 			);
@@ -965,17 +1123,19 @@
 		};
 		6560AE6224411C4C00581008 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83542FEA99C0CB2D51557ACB /* Pods-TheNews.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU4L5F87Z7;
 				INFOPLIST_FILE = TheNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNews;
+				PRODUCT_BUNDLE_IDENTIFIER = wymann.TouchingFish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -984,17 +1144,19 @@
 		};
 		6560AE6324411C4C00581008 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2080792D562775C847033C /* Pods-TheNews.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU4L5F87Z7;
 				INFOPLIST_FILE = TheNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNews;
+				PRODUCT_BUNDLE_IDENTIFIER = wymann.TouchingFish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1003,8 +1165,11 @@
 		};
 		65883AE724744FF800C1A55A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402D1C5DACE7A310E55747F8 /* Pods-Today.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU4L5F87Z7;
 				INFOPLIST_FILE = Today/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1012,8 +1177,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNews.Today;
+				PRODUCT_BUNDLE_IDENTIFIER = wymann.TouchingFish.Today;
 				PRODUCT_NAME = Today;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1022,8 +1188,11 @@
 		};
 		65883AE824744FF800C1A55A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6D4E7AFAB6A7F7B02309D5 /* Pods-Today.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DU4L5F87Z7;
 				INFOPLIST_FILE = Today/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1031,8 +1200,9 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dk.TheNews.Today;
+				PRODUCT_BUNDLE_IDENTIFIER = wymann.TouchingFish.Today;
 				PRODUCT_NAME = Today;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1041,6 +1211,7 @@
 		};
 		65943902245A1F4400F92AD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E808280F4DBD43B92DF308C2 /* Pods-TheNewsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1061,6 +1232,7 @@
 		};
 		65943903245A1F4400F92AD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D1C0756A7839324B02C63FB /* Pods-TheNewsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1081,6 +1253,7 @@
 		};
 		65F36898245684B500A8C398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C7FB0E4974BEDF9AC04B4F /* Pods-TheNews.tvos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;
@@ -1100,6 +1273,7 @@
 		};
 		65F36899245684B500A8C398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305B6A81642ACE21AC853713 /* Pods-TheNews.tvos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				CODE_SIGN_STYLE = Automatic;

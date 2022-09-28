@@ -1,0 +1,32 @@
+
+target 'TheNews' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  #source 'https://github.com/CocoaPods/Specs.git'
+  platform :ios, '10.0'
+
+  # Pods for TheNews
+  pod 'SnapKit', '~> 5.6.0'
+
+  target 'TheNewsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'TheNews.tvos' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TheNews.tvos
+
+end
+
+target 'Today' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Today
+
+end
